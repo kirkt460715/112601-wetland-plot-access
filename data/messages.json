@@ -1,0 +1,43 @@
+[
+  {
+    "sequence": 1,
+    "received_at": 14,
+    "source": "research",
+    "facts": {
+      "group": "monitor-2",
+      "plot": "plot-2",
+      "left_device": "case-8"
+    }
+  },
+  {
+    "sequence": 2,
+    "received_at": 29,
+    "source": "ranger",
+    "facts": {
+      "plot": "plot-2",
+      "closed_for_new": true,
+      "leave_allowed": true
+    }
+  },
+  {
+    "sequence": 3,
+    "received_at": 37,
+    "source": "arrival",
+    "facts": {
+      "actual": 28,
+      "entry": "east",
+      "group": "monitor-2",
+      "participant": "observer-1"
+    }
+  },
+  {
+    "sequence": 4,
+    "received_at": 40,
+    "source": "school",
+    "facts": {
+      "group": "school-4",
+      "add": "guest-v",
+      "requested_entry": "west"
+    }
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "areas": {
+    "plot-2": {
+      "capacity": 1,
+      "capabilities": [
+        "observe",
+        "instrument"
+      ]
+    },
+    "plot-4": {
+      "capacity": 2,
+      "capabilities": [
+        "observe"
+      ]
+    }
+  },
+  "entries": {
+    "west": [
+      "plot-2",
+      "plot-4"
+    ],
+    "east": [
+      "plot-2"
+    ],
+    "free": [
+      "plot-4"
+    ]
+  },
+  "groups": {
+    "school-4": {
+      "purpose": "observe",
+      "participants": [
+        "guide-1",
+        "p2"
+      ],
+      "window": [
+        35,
+        60
+      ]
+    },
+    "monitor-2": {
+      "purpose": "instrument",
+      "participants": [
+        "observer-1"
+      ],
+      "window": [
+        5,
+        35
+      ]
+    }
+  },
+  "usage": {
+    "plot-2": {
+      "holder": "monitor-2",
+      "devices": [
+        "case-8"
+      ],
+      "until": 35
+    }
+  }
+}

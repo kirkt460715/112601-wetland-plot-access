@@ -1,0 +1,23 @@
+[
+  {
+    "action": "read-device",
+    "desk": "ranger-desk",
+    "fact": {
+      "plot": "plot-2",
+      "case": "case-8",
+      "collected": false
+    },
+    "unavailable_first": true
+  },
+  {
+    "action": "read-entry",
+    "desk": "free-desk",
+    "fact": {
+      "path": [
+        "plot-4"
+      ],
+      "current": "open"
+    },
+    "unavailable_first": false
+  }
+]
