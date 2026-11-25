@@ -28,6 +28,7 @@
   },
   "groups": {
     "school-4": {
+      "unit": "school-east",
       "purpose": "observe",
       "participants": [
         "guide-1",
@@ -39,6 +40,7 @@
       ]
     },
     "monitor-2": {
+      "unit": "park-lab",
       "purpose": "instrument",
       "participants": [
         "observer-1"
@@ -47,6 +49,34 @@
         5,
         35
       ]
+    }
+  },
+  "eligible_units": {
+    "observe": [
+      "school-east",
+      "park-lab"
+    ],
+    "instrument": [
+      "park-lab"
+    ],
+    "retrieve": [
+      "park-lab"
+    ]
+  },
+  "roster": {
+    "guide-1": {
+      "unit": "school-east",
+      "can_lead": true
+    },
+    "p2": {
+      "unit": "school-east"
+    },
+    "observer-1": {
+      "unit": "park-lab",
+      "can_lead": true
+    },
+    "guest-v": {
+      "unit": "visitor"
     }
   },
   "usage": {
